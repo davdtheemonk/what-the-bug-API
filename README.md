@@ -3,7 +3,7 @@ API for what the bug blog
 
 what-the-bug blog is a tech blog Written in React.js and it's API written in python using the Django framework.
 
-Repo for <a href="www.github.com/davdtheemonk/what-the-bug">what-the-bug</a>
+Repo for <a href="https://github.com/davdtheemonk/what-the-bug">what-the-bug</a>
 
 
 Want to post a blog on what-the-bug
