@@ -8,7 +8,7 @@ Repo for <a href="www.github.com/davdtheemonk/what-the-bug">what-the-bug</a>
 
 Want to post a blog on what-the-bug
 
-[] Read the API Docs <a href="">here</a>
+> Read the API Docs <a href="">here</a>
 
 
 ### Installation
