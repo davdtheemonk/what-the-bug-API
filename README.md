@@ -15,7 +15,7 @@ Want to post a blog on what-the-bug
 
 ```git clone what-the-bug-API```
 
-```cd what-the-bug-API``
+```cd what-the-bug-API ```
 
 ```pip install -r requirements.txt```
 
