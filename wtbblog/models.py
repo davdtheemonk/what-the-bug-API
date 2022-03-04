@@ -13,3 +13,8 @@ class Post(models.Model):
     def __str__(self):
         return self.title
     
+class modules(models.Model):
+    title=models.CharField(max_length=255)
+    post=models.TextField(blank=True)
+    def __str__(self):
+        return self.title
