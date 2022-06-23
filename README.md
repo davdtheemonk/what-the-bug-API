@@ -7,21 +7,41 @@ Repo for <a href="https://github.com/davdtheemonk/what-the-bug">what-the-bug</a>
 
 
 Want to post a blog on what-the-bug
+Email me your article
+ 
+mugalladave@gmail.com
 
-> Read the API Docs <a href="">here</a>
+Refs before you email
 
+```
+{
+
+"unsplash-image-id":"",
+"Title":"",
+"Date":"",
+"Time-to-read:"",
+"Post":"",
+
+}
+
+```
+
+> Register for a web-token <a href="">here</a>
+ and post your blog [T&C apply]
 
 ### Installation
 
-```git clone what-the-bug-API```
+```
+   git clone what-the-bug-API
 
-```cd what-the-bug-API ```
+   cd what-the-bug-API 
 
-```pip install -r requirements.txt```
+   pip install -r requirements.txt
 
-```python manage.py runserver```
+   python manage.py runserver
 
-``` Read the Django docs to finish setup ```
+   8Read the Django docs to finish setup 
+```
 
 
 ### On your browser
