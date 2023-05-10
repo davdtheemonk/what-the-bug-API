@@ -29,12 +29,11 @@ def home(request):
 
 
 
-def get_Data(request,pk):
+def get_Data(request,slug):
 	results = []
 	try:
 		if request.method == 'GET':
-			query_id=int(pk)
-			post = Post.objects.get(pk=pk)
+			post = Post.objects.get(title=slug)
 			val ={'id':post.pk,'title':post.title,'date':post.date,'location':post.location,'timetoread':post.timetoread
 			,'image_url':post.image,'post':post.post}
 			results.append(val)

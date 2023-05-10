@@ -6,7 +6,7 @@ urlpatterns = [
     path("posts/",views.PostList.as_view()),
     path("posts/api/v1/",views.getDataJson),
     path("posts/<int:pk>",views.PostDetails.as_view()),
-    path("post/search/<int:pk>",views.get_Data),
+    path("post/search/<slug:slug>/",views.get_Data),
     path('modules/',views.ModuleList.as_view()),
     path("modules/<int:pk>",views.ModulePost.as_view())
     
